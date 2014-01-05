@@ -1,17 +1,13 @@
-#
-#	Python GPS Tracking Example
-#	SparkFun Electronics, A.Weiss
-#	Beerware: if you use this and meet me, you must buy me a beer
-#	
 #	Function:
 #	Takes GPS position and altitude data and plots it on a scaled map image of your
 #	choice. Altitude can also be displayed in a separate graph. 
 #	
-#	The program has a console menu that allows you to configure your connection. 
-#	The program will run with either a GPS moudle connected or no moudle connected.
+#	The script has a console menu that allows you to configure your connection. 
+#	It will run with either a GPS moudle connected or no moudle connected.
 #	If a GPS is connected, the position and altitude data is automatically saved
 #	to a file called nmea.txt. If no GPS is connected, you must create your own
-#	nmea.txt and fill it with GPGGA NMEA sentences. 
+#	nmea.txt and fill it with GPGGA NMEA sentences.
+#   (I used a sample nmea text file offf the net) 
 #	A map needs to be created and saved as a file called map.png. When you create
 #	your map, note the lat and long of the bottom left and top right corner, in decimal 
 #	degrees. Then enter this information into the global variables below. This way, 

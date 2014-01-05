@@ -1,2 +1,1 @@
-See tutorial here:
-http://www.sparkfun.com/tutorials/403
+Please read the install notes.
